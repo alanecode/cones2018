@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/alanecode/cones2018#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "http-server": "^0.10.0"
   }
 }
