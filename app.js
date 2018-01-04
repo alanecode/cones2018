@@ -29,4 +29,32 @@ App.prototype.getViews = function() {
 	this.app.get('/', function(req, res) {
 		res.render('pages/index')
 	})
+
+	this.app.get('/background', function(req, res) {
+		res.render('pages/background')
+	})
+
+	this.app.get('/programme', function(req, res) {
+		res.render('pages/programme')
+	})
+
+	this.app.get('/registration', function(req, res) {
+		res.render('pages/registration')
+	})
+
+	this.app.get('/participants', function(req, res) {
+		res.render('pages/participants')
+	})
+
+	this.app.get('/accommodation', function(req, res) {
+		res.render('pages/accommodation')
+	})
+
+	this.app.get('/contact', function(req, res) {
+		res.render('pages/contact')
+	})
+
+	this.app.get('/feedback', function(req, res) {
+		res.render('pages/feedback')
+	})
 }
