@@ -27,6 +27,6 @@ App.prototype.initialise = function() {
 App.prototype.getViews = function() {
 
 	this.app.get('/', function(req, res) {
-		res.render('index')
+		res.render('pages/index')
 	})
 }
