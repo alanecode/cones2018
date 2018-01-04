@@ -27,6 +27,16 @@ App.prototype.initialise = function() {
 App.prototype.getViews = function() {
 
 	this.app.get('/', function(req, res) {
-		res.render('pages/index')
+		res.render('pages/index');
 	})
+
+	var staticPages = ['background', 'programme', 'registration', 'participants',
+										 'accommodation', 'contact', 'feedback'];
+
+	staticPages.forEach(function(page) {
+		this.app.get('/' + page, function(req, res) {
+			res.render('pages/' + page);
+		})
+	}, this); // specify context within forEach loop
+
 }

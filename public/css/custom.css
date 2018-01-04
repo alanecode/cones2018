@@ -183,6 +183,8 @@ footer {
         display: none;
     }
 
+
+
      /* style page navigation at top of screen */
     .container {
         position: relative;
@@ -208,6 +210,11 @@ footer {
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         border-radius: 2px;
+    }
+
+    /* hide button for navigating to top when menu is top */
+    #top-button {
+      display: none !important;
     }
 
     /* add space between end of content and top of footer */
