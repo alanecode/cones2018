@@ -27,34 +27,16 @@ App.prototype.initialise = function() {
 App.prototype.getViews = function() {
 
 	this.app.get('/', function(req, res) {
-		res.render('pages/index')
+		res.render('pages/index');
 	})
 
-	this.app.get('/background', function(req, res) {
-		res.render('pages/background')
-	})
+	var staticPages = ['background', 'programme', 'registration', 'participants',
+										 'accommodation', 'contact', 'feedback'];
 
-	this.app.get('/programme', function(req, res) {
-		res.render('pages/programme')
-	})
+	staticPages.forEach(function(page) {
+		this.app.get('/' + page, function(req, res) {
+			res.render('pages/' + page);
+		})
+	}, this); // specify context within forEach loop
 
-	this.app.get('/registration', function(req, res) {
-		res.render('pages/registration')
-	})
-
-	this.app.get('/participants', function(req, res) {
-		res.render('pages/participants')
-	})
-
-	this.app.get('/accommodation', function(req, res) {
-		res.render('pages/accommodation')
-	})
-
-	this.app.get('/contact', function(req, res) {
-		res.render('pages/contact')
-	})
-
-	this.app.get('/feedback', function(req, res) {
-		res.render('pages/feedback')
-	})
 }
