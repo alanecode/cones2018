@@ -177,21 +177,19 @@ footer {
 
 /* Media Queries for Large Screens
 ------------------------------------------------- */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 785px) {
       /* hide menu button when displaying on large screens */
       div.to_nav {
         display: none;
     }
 
-
-
-     /* style page navigation at top of screen */
     .container {
         position: relative;
         width: 768px;
         margin: auto;
     }
 
+    /* style page navigation at top of screen */
     #primary_nav {
         position: absolute;
         top: 1px;
@@ -199,17 +197,32 @@ footer {
         background: none;
     }
 
+    #primary_nav ul {
+      margin: 0;
+      margin-top: 15px;
+      padding: 0;
+      overflow: hidden;
+    }
+
     #primary_nav li {
-        display: inline;
+      float: right;
+    }
+
+    #primary_nav li:nth-child(5) {
+      clear: right;
     }
 
     #primary_nav li a {
-        display: inline;
-        border: none;
-        padding: 13px 10px;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        border-radius: 2px;
+      color: #fff;
+      line-height: 2em;
+      height: 2em;
+      border-bottom: none;
+      padding: 0 10px;
+    }
+
+    #primary_nav li a:hover {
+      color: #cccccc;
+      background: none;
     }
 
     /* hide button for navigating to top when menu is top */
@@ -221,4 +234,24 @@ footer {
     footer {
       margin-top: 2.5rem;
     }
- }
+}
+
+ @media only screen and (min-width: 1170px) {
+
+   #primary_nav {
+     margin-top: 14px;
+   }
+
+   #primary_nav li {
+     display: inline;
+   }
+
+   #primary_nav li:nth-child(5) {
+     float: none;
+   }
+
+   #primary_nav li a {
+     display: inline;
+   }
+
+}
