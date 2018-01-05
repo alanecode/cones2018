@@ -20,6 +20,10 @@
   width: extend-to-zoom;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 /* Header
 based on https://webdesign.tutsplus.com/articles/a-simple-responsive-mobile-first-navigation--webdesign-6074
 -------------------------------------------------- */
