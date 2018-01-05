@@ -15,7 +15,10 @@
    id="svg4722"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="cones-logo.svg">
+   sodipodi:docname="cones-logo.svg"
+   inkscape:export-filename="/home/andrew/Dropbox/codes/javascript/cones2018/public/img/cones18-logo-white.png"
+   inkscape:export-xdpi="99.699997"
+   inkscape:export-ydpi="99.699997">
   <defs
      id="defs4724" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="36.149723"
-     inkscape:cy="65.651998"
+     inkscape:cx="32.538792"
+     inkscape:cy="66.127338"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -74,13 +77,17 @@
      id="layer1"
      transform="translate(-253.47576,-478.96375)">
     <g
-       id="g5307">
+       id="g5307"
+       style="fill:#cccccc;fill-opacity:0.75294119;opacity:0.99;stroke:none;stroke-opacity:1"
+       inkscape:export-filename="/home/andrew/Dropbox/codes/javascript/cones2018/public/img/cones18-logo-grey.png"
+       inkscape:export-xdpi="99.699997"
+       inkscape:export-ydpi="99.699997">
       <text
          sodipodi:linespacing="0%"
          id="text5270"
          y="512.36218"
          x="342.14285"
-         style="font-style:normal;font-weight:normal;font-size:45px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:6.19999981px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;font-size:45px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:6.19999981px;word-spacing:0px;text-anchor:middle;fill:#cccccc;fill-opacity:0.75294119;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="512.36218"
            x="345.24286"
@@ -91,23 +98,12 @@
          id="text5274"
          y="566.79083"
          x="342.71429"
-         style="font-style:normal;font-weight:normal;font-size:45px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:22.77000046px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;font-size:45px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:22.77000046px;word-spacing:0px;text-anchor:middle;fill:#cccccc;fill-opacity:0.75294119;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="566.79083"
            x="354.0993"
            id="tspan5276"
            sodipodi:role="line">2018</tspan></text>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:20px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:1px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="361.42856"
-       y="603.07648"
-       id="text5284"
-       sodipodi:linespacing="0%"><tspan
-         sodipodi:role="line"
-         id="tspan5286"
-         x="361.92856"
-         y="603.07648">|</tspan></text>
   </g>
 </svg>
