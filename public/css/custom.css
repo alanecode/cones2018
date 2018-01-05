@@ -20,6 +20,10 @@
   width: extend-to-zoom;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 /* Header
 based on https://webdesign.tutsplus.com/articles/a-simple-responsive-mobile-first-navigation--webdesign-6074
 -------------------------------------------------- */
@@ -49,7 +53,7 @@ header {
         }
 
 h1.logo a {
-    color: #d8d8d8;
+    /*color: #d8d8d8;*/
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -61,6 +65,27 @@ h1.logo a {
     top: 3.1rem;
   }
 
+div.logo-wrap {
+  float: left;
+  height: 100%;
+  width: 210px;
+  text-align: left;
+}
+
+/* hide mouse over logo by default */
+div.logo-wrap a.logo-rollover { display: none; }
+
+div.logo-wrap:hover > a.logo-rollover { display: inline; }
+
+div.logo-wrap:hover > a.logo-normal { display: none; }
+
+a.logo img {
+  height: 90%;
+  margin-top: 4px;
+}
+
+
+/* button to take mobile users to navigation at bottom of page */
 div.to_nav {
     background: #4e4e4e;
     padding: 8px 12px 5px;
@@ -199,7 +224,7 @@ footer {
 
     #primary_nav ul {
       margin: 0;
-      margin-top: 15px;
+      margin-top: 1px;
       padding: 0;
       overflow: hidden;
     }
@@ -217,7 +242,7 @@ footer {
       line-height: 2em;
       height: 2em;
       border-bottom: none;
-      padding: 0 10px;
+      padding: 6px 10px;
     }
 
     #primary_nav li a:hover {
@@ -232,14 +257,14 @@ footer {
 
     /* add space between end of content and top of footer */
     footer {
-      margin-top: 2.5rem;
+      margin-top: 4.5rem;
     }
 }
 
  @media only screen and (min-width: 1170px) {
 
    #primary_nav {
-     margin-top: 14px;
+     margin-top: 24px;
    }
 
    #primary_nav li {
