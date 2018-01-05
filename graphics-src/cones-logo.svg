@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.122688mm"
+   height="24.966589mm"
+   viewBox="0 0 177.60008 88.464291"
+   id="svg4722"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cones-logo.svg">
+  <defs
+     id="defs4724" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="36.149723"
+     inkscape:cy="65.651998"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1362"
+     inkscape:window-height="729"
+     inkscape:window-x="1440"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="0.095664712,245.78011"
+       orientation="1,0"
+       id="guide5278" />
+    <sodipodi:guide
+       position="177.23852,174.35154"
+       orientation="1,0"
+       id="guide5280" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5282"
+       originx="-253.47576"
+       originy="-484.93415" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4727">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-253.47576,-478.96375)">
+    <g
+       id="g5307">
+      <text
+         sodipodi:linespacing="0%"
+         id="text5270"
+         y="512.36218"
+         x="342.14285"
+         style="font-style:normal;font-weight:normal;font-size:45px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:6.19999981px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="512.36218"
+           x="345.24286"
+           id="tspan5272"
+           sodipodi:role="line">CONES</tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text5274"
+         y="566.79083"
+         x="342.71429"
+         style="font-style:normal;font-weight:normal;font-size:45px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:22.77000046px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="566.79083"
+           x="354.0993"
+           id="tspan5276"
+           sodipodi:role="line">2018</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:1px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="361.42856"
+       y="603.07648"
+       id="text5284"
+       sodipodi:linespacing="0%"><tspan
+         sodipodi:role="line"
+         id="tspan5286"
+         x="361.92856"
+         y="603.07648">|</tspan></text>
+  </g>
+</svg>
