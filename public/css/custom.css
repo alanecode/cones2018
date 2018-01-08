@@ -223,6 +223,7 @@ footer {
     }
 
     #primary_nav ul {
+      float: right;
       margin: 0;
       margin-top: 1px;
       padding: 0;
@@ -230,11 +231,12 @@ footer {
     }
 
     #primary_nav li {
-      float: right;
+      float: left;
     }
 
     #primary_nav li:nth-child(5) {
-      clear: right;
+      clear: left;
+      margin-left: 173px;
     }
 
     #primary_nav li a {
@@ -269,10 +271,11 @@ footer {
 
    #primary_nav li {
      display: inline;
+     float: none;
    }
 
    #primary_nav li:nth-child(5) {
-     float: none;
+     margin-left: 0;
    }
 
    #primary_nav li a {
