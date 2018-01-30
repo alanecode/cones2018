@@ -1,0 +1,101 @@
+,first_name,title,surname,twitter,homepage,role,university,talk_title,plenary
+0,Scott,Prof,Hicks,,xkcd.com/174,speaker,KCL,Sit ipsum dolor sit modi magnam.,Plenary 1
+1,Parker,Prof,Posey,,xkcd.com/1172,delegate,KCL,,
+2,Dave,Prof,Chappelle,,,delegate,UCL,,
+3,Steve,Prof,Zahn,,xkcd.com/87,delegate,,,
+4,Tom,Prof,Hanks,,xkcd.com/155,delegate,KCL,,
+5,Nora,Prof,Ephron,@Ephron564,,speaker,UCL,Est consectetur porro quaerat quiquia velit amet.,Plenary 1
+6,Rita,Prof,Wilson,,,delegate,KCL,,
+7,Bill,Prof,Pullman,,,delegate,,,
+8,Victor,Prof,Garber,,,delegate,UCL,,
+9,Rosie,Prof,O'Donnell,,xkcd.com/909,delegate,UCL,,
+10,Nathan,Prof,Lane,,xkcd.com/955,speaker,Imperial,Amet etincidunt dolor amet sed quisquam labore amet.,Plenary 1
+11,Billy,Prof, Crystal,@ Crystal612,,delegate,Imperial,,
+12,Carrie,Prof,Fisher,,xkcd.com/648,delegate,KCL,,
+13,Bruno,Prof,Kirby,,,delegate,Oxford,,
+14,Liv,Prof,Tyler,,xkcd.com/486,delegate,Imperial,,
+15,Brooke,Prof,Langton,,,speaker,UCL,Ipsum dolor quisquam non ut.,Plenary 3
+16,Gene,Prof,Hackman,,,delegate,Manchester,,
+17,Orlando,Prof,Jones,@Jones70,,delegate,UCL,,
+18,Howard,Prof,Deutch,,,delegate,Manchester,,
+19,Werner,Prof,Herzog,,,delegate,KCL,,
+20,Robin,Dr,Williams,,,speaker,Cambridge,Etincidunt porro magnam consectetur quiquia magnam sit velit.,Plenary 3
+21,Vincent,Dr,Ward,,,delegate,KCL,,
+22,Ethan,Dr,Hawke,,,delegate,KCL,,
+23,Rick,Dr,Yune,,,delegate,,,
+24,Keanu,Dr,Reeves,,,delegate,KCL,,
+25,James,Dr,Cromwell,,,speaker,Oxford,Porro adipisci magnam quisquam.,Plenary 2
+26,Carrie-Anne,Dr,Moss,,,delegate,Oxford,,
+27,Laurence,Dr,Fishburne,@Fishburne597,,delegate,KCL,,
+28,Hugo,Dr,Weaving,@Weaving670,xkcd.com/715,delegate,Oxford,,
+29,Lilly,Dr,Wachowski,,,delegate,UCL,,
+30,Lana,Dr,Wachowski,,,speaker,Cambridge,Adipisci aliquam porro numquam non.,Plenary 3
+31,Joel,Dr,Silver,,xkcd.com/843,delegate,,,
+32,Emil,Dr,Eifrem,,,delegate,Imperial,,
+33,Charlize,Dr,Theron,,,delegate,KCL,,
+34,Al,Dr,Pacino,@Pacino191,xkcd.com/1205,delegate,,,
+35,Taylor,Dr,Hackford,,xkcd.com/352,speaker,,Sed etincidunt sed sed neque neque modi.,Plenary 3
+36,Tom,Dr,Cruise,,xkcd.com/1342,delegate,UCL,,
+37,Jack,Dr,Nicholson,,xkcd.com/255,delegate,Imperial,,
+38,Demi,Dr,Moore,,xkcd.com/542,delegate,Oxford,,
+39,Kevin,Dr,Bacon,,,delegate,Manchester,,
+40,Kiefer,Dr,Sutherland,,,speaker,Manchester,Porro consectetur dolor magnam tempora.,Plenary 1
+41,Noah,Dr,Wyle,,xkcd.com/977,delegate,UCL,,
+42,Cuba,Dr,Gooding Jr.,,,delegate,Oxford,,
+43,Kevin,Dr,Pollak,@Pollak172,,delegate,Oxford,,
+44,J.T.,Dr,Walsh,,,delegate,UCL,,
+45,James,Dr,Marshall,@Marshall303,,speaker,KCL,Dolorem ut velit ut voluptatem.,Plenary 3
+46,Christopher,Dr,Guest,,,delegate,Imperial,,
+47,Rob,Dr,Reiner,,,delegate,UCL,,
+48,Aaron,Dr,Sorkin,,,delegate,Oxford,,
+49,Kelly,Dr,McGillis,,,delegate,Imperial,,
+50,Val,Dr,Kilmer,,,speaker,Oxford,Dolor dolor tempora labore quiquia.,Plenary 2
+51,Anthony,Dr,Edwards,@Edwards100,xkcd.com/968,delegate,Cambridge,,
+52,Tom,Dr,Skerritt,,,delegate,Cambridge,,
+53,Meg,Dr,Ryan,,,delegate,KCL,,
+54,Tony,Dr,Scott,,,delegate,Imperial,,
+55,Jim,Dr,Cash,,xkcd.com/1461,speaker,KCL,Etincidunt quisquam consectetur tempora.,Plenary 1
+56,Renee,Dr,Zellweger,,,delegate,UCL,,
+57,Kelly,Dr,Preston,,,delegate,KCL,,
+58,Jerry,Dr,O'Connell,,xkcd.com/301,delegate,Oxford,,
+59,Jay,Dr,Mohr,,,delegate,KCL,,
+60,Bonnie,Dr,Hunt,,,speaker,Manchester,Quiquia quaerat est sed quiquia aliquam numquam dolore.,Plenary 3
+61,Regina,Dr,King,@King475,xkcd.com/264,delegate,UCL,,
+62,Jonathan,Dr,Lipnicki,,xkcd.com/1007,delegate,KCL,,
+63,Cameron,Dr,Crowe,,xkcd.com/643,delegate,Oxford,,
+64,River,Dr,Phoenix,@Phoenix771,xkcd.com/1026,delegate,Oxford,,
+65,Corey,Dr,Feldman,,,speaker,Imperial,Dolore labore sed numquam ut ipsum magnam.,Plenary 1
+66,Wil,Dr,Wheaton,,,delegate,,,
+67,John,Dr,Cusack,,,delegate,UCL,,
+68,Marshall,Dr,Bell,,,delegate,UCL,,
+69,Helen,Dr,Hunt,,xkcd.com/537,delegate,Oxford,,
+70,Greg,Dr,Kinnear,,,speaker,Cambridge,Adipisci aliquam labore eius eius dolorem ipsum.,Plenary 3
+71,James L.,Dr,Brooks,,,delegate,KCL,,
+72,Annabella,Dr,Sciorra,@Sciorra645,xkcd.com/1038,delegate,Manchester,,
+73,Max,Dr,von Sydow,,xkcd.com/1460,delegate,,,
+74,Christian,Dr,Bale,,,delegate,,,
+75,Zach,Dr,Grenier,@Grenier920,,speaker,KCL,Aliquam quaerat dolore voluptatem adipisci ut etincidunt.,Plenary 2
+76,Mike,Dr,Nichols,,,delegate,KCL,,
+77,Richard,Dr,Harris,@Harris284,,delegate,,,
+78,Clint,Dr,Eastwood,@Eastwood714,,delegate,KCL,,
+79,Takeshi,Dr,Kitano,,,delegate,KCL,,
+80,Dina,Dr,Meyer,@Meyer408,,speaker,Imperial,Aliquam aliquam quiquia sed quisquam quisquam.,Plenary 3
+81,Halle,Dr,Berry,,xkcd.com/992,delegate,KCL,,
+82,Jim,Dr,Broadbent,,,delegate,Cambridge,,
+83,Tom,Dr,Tykwer,,,delegate,UCL,,
+84,David,Dr,Mitchell,,,delegate,Oxford,,
+85,Stefan,Dr,Arndt,,xkcd.com/1318,speaker,KCL,Non dolore etincidunt eius non non quisquam dolorem.,Plenary 3
+86,Ian,Dr,McKellen,@McKellen403,,delegate,KCL,,
+87,Audrey,Dr,Tautou,,xkcd.com/1309,delegate,Oxford,,
+88,Paul,Dr,Bettany,,,delegate,KCL,,
+89,Robert,Dr,Longo,,xkcd.com/1425,delegate,UCL,,
+90,Ron,Dr,Howard,,,speaker,UCL,Dolorem voluptatem voluptatem dolor.,Plenary 1
+91,Natalie,Dr,Portman,,xkcd.com/103,delegate,UCL,,
+92,Stephen,Dr,Rea,,,delegate,UCL,,
+93,John,Dr,Hurt,,xkcd.com/953,delegate,Manchester,,
+94,Ben,Dr,Miles,,,delegate,Manchester,,
+95,Emile,Dr,Hirsch,,,speaker,Imperial,Velit numquam dolore ipsum tempora neque porro dolor.,Plenary 1
+96,John,Dr,Goodman,,,delegate,Imperial,,
+97,Susan,Dr,Sarandon,,,delegate,,,
+98,Matthew,Dr,Fox,,,delegate,Manchester,,
+99,Christina,Dr,Ricci,,xkcd.com/878,delegate,,,
