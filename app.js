@@ -30,6 +30,7 @@ App.prototype.getViews = function() {
 		res.render('pages/index');
 	})
 
+<<<<<<< 083f92e3b6b754f27fadf7849607c8328b6f418e
 /*
 Reduced complement of pages for v1.0 of site. To be reinstated when we have
 more info on participants
@@ -37,6 +38,24 @@ more info on participants
 										'location', 'contact', 'feedback'];
 */
 var staticPages = ['background', 'registration', 'location', 'contact'];
+=======
+	this.app.get('/speakers', function(req, res) {
+		res.render('pages/speakers', {
+			speakers: require(__dirname + '/public/data/speakers.json')
+		});
+
+	})
+
+	this.app.get('/attendants', function(req, res) {
+		res.render('pages/attendants', {
+			attendants: require(__dirname + '/public/data/attendants.json')
+		});
+
+	})
+
+	var staticPages = ['background', 'registration', 'accommodation',
+		'contact', 'feedback'];
+>>>>>>> Load attendants and speakers into template.
 
 	staticPages.forEach(function(page) {
 		this.app.get('/' + page, function(req, res) {
