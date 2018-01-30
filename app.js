@@ -30,8 +30,22 @@ App.prototype.getViews = function() {
 		res.render('pages/index');
 	})
 
-	var staticPages = ['background', 'programme', 'registration', 'participants',
-										 'accommodation', 'contact', 'feedback'];
+	this.app.get('/speakers', function(req, res) {
+		res.render('pages/speakers', {
+			speakers: require(__dirname + '/public/data/speakers.json')
+		});
+
+	})
+
+	this.app.get('/attendants', function(req, res) {
+		res.render('pages/attendants', {
+			attendants: require(__dirname + '/public/data/attendants.json')
+		});
+
+	})
+
+	var staticPages = ['background', 'registration', 'accommodation',
+		'contact', 'feedback'];
 
 	staticPages.forEach(function(page) {
 		this.app.get('/' + page, function(req, res) {
