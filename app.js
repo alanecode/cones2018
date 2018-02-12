@@ -31,7 +31,7 @@ App.prototype.getViews = function() {
 	})
 
 	var staticPages = ['background', 'programme', 'registration', 'participants',
-										 'accommodation', 'contact', 'feedback'];
+										'location', 'contact', 'feedback'];
 
 	staticPages.forEach(function(page) {
 		this.app.get('/' + page, function(req, res) {

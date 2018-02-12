@@ -1,0 +1,169 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<% include ../partials/head %>
+	<style>
+		#map {
+			width: 100%;
+			height: 400px;
+			background-color: grey;
+		}
+	</style>
+</head>
+
+<body class="code-snippets-visible" id="home">
+	<header>
+		<% include ../partials/header %>
+	</header>
+
+<div class="container">
+	<section id="page-title">
+		<h2 class="title">Location</h2>
+	</section>
+
+	<div class="docs-section" id="location-info">
+		The map below shows London Underground transport links to the conference venue.
+		Click on the markers and follow the links to get more details on the venue
+		and nearby accomodation.
+		<br></br>
+		<p style="text-align:center">
+		<strong>Goodenough College</strong><br>
+		Mecklenburgh Square<br>
+		London WC1N 2AB
+		</p>
+	</div>
+
+	<div id="map"></div>
+	<script>
+
+	var map
+	var infowindow
+
+		function initMap() {
+			var location = {lat: 51.524196, lng: -0.117827}
+
+			map = new google.maps.Map(
+				document.getElementById('map'), {
+
+					center: location,
+					zoom: 14,
+
+					disableDefaultUI: true,
+					mapTypeControl: false,
+
+					gestureHandling: 'cooperative',
+					styles: styles
+			})
+
+			var marker = new google.maps.Marker({
+
+				position: location,
+				map: map,
+
+				icon: {
+
+					path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+					fillColor: '#ff0000',
+					strokeColor: '#ff0000',
+
+					fillOpacity: 1,
+					strokeWeight: 1,
+					scale: 7
+				}
+			})
+
+			google.maps.event.addListener(marker, 'click', function() {
+
+				var name = 'Goodenough College'
+				var vicinity = 'Mecklenburgh Square, London WC1N 2AB'
+
+				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'+name+'</p>'+vicinity+'<br>'+'<a href="https://www.google.co.uk/maps/place/'+name.split(' ').join('+')+'">'+'View on Google Maps'+'</a></div>')
+				infowindow.open(map, this)
+			})
+
+			var transitLayer = new google.maps.TransitLayer()
+			transitLayer.setMap(map)
+
+			infowindow = new google.maps.InfoWindow()
+			var service = new google.maps.places.PlacesService(map)
+
+			service.nearbySearch({
+				location: location,
+				radius: 500,
+				keyword: 'hotel',
+				type: ['lodging']
+
+			}, callback)
+		}
+
+		var styles = [{
+
+			featureType: 'poi.business',
+			stylers: [{visibility: 'off'}]
+		}]
+
+
+		function callback(results, status) {
+			if (status === google.maps.places.PlacesServiceStatus.OK) {
+
+				for (var i = 0; i < results.length; i++) {
+					createMarker(results[i])
+				}
+			}
+		}
+
+		function createMarker(place) {
+			var marker = new google.maps.Marker({
+
+				position: place.geometry.location,
+				map: map,
+
+				icon: {
+
+					path: google.maps.SymbolPath.CIRCLE,
+
+					fillColor: '#383838',
+					strokeColor: '#383838',
+
+					fillOpacity: 1,
+					strokeWeight: 1,
+					scale: 7
+				}
+			})
+
+			google.maps.event.addListener(marker, 'click', function() {
+				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'+place.name+'</p>'+place.vicinity+'<br>'+'<a href="https://www.google.co.uk/maps/place/'+place.name.split(' ').join('+')+'">'+'View on Google Maps'+'</a></div>')
+				infowindow.open(map, this)
+			})
+
+		}
+
+	</script>
+	<div class="docs-section" style="width:80%;margin-left:10%;" id="page-title">
+
+		<svg width="44px" height="44px" viewBox="0 0 400 400">
+			<path fill="red" d="M 100 50 L 200 100 L 300 50 L 200 300 z"/>
+		</svg>
+		<svg height="44px" width="145px">
+			<text x="0" y="21" text-anchor="left"
+			alignment-baseline="central">Conference Venue</text>
+		</svg>
+		<br></br>
+		<svg width="44px" height="44px" viewBox="0 0 400 400">
+			<circle cx="200" cy="200" r="50"/>
+		</svg>
+		<svg height="44px" width="101px">
+			<text x="0" y="21" text-anchor="left"
+			alignment-baseline="central">Accomodation</text>
+		</svg>
+	</div>
+</div>
+
+<% include ../partials/navigation %>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLN2M83glFf1xRsjf_N741IFilc_6Gxjo&libraries=places&callback=initMap" async defer></script>
+
+<footer>
+	<% include ../partials/footer %>
+</footer>
