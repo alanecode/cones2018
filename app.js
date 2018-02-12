@@ -30,8 +30,13 @@ App.prototype.getViews = function() {
 		res.render('pages/index');
 	})
 
+/*
+Reduced complement of pages for v1.0 of site. To be reinstated when we have
+more info on participants
 	var staticPages = ['background', 'programme', 'registration', 'participants',
 										'location', 'contact', 'feedback'];
+*/
+var staticPages = ['background', 'registration', 'location', 'contact'];
 
 	staticPages.forEach(function(page) {
 		this.app.get('/' + page, function(req, res) {
