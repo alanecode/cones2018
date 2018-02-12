@@ -178,6 +178,44 @@ div.to_nav > a {
     text-align: center;
 }
 
+/* logo images
+------------------------------------------------- */
+.logo-banner{
+  /* padding-top: 40.3px; */
+  /* position: relative; */
+}
+
+.logo-container {
+  padding-top: 40.3px;
+}
+
+.logo-container #epsrc-logo {
+  margin-top: 7%;
+}
+
+.logo-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+#kcl-logo {width: 75%;}
+#epsrc-logo { width: 100%; }
+
+/* font awesome logo indicating image is clickable*/
+/* .pin { */
+    /* position: absolute; /* Takes this element out the document flow */ */
+    /* z-index:10; /* Just in case of z-index issues, remove if not needed */ */
+/* } */
+
+/* .pin1 {right: 12%;bottom: -16%;} */
+/* .pin2 {right: 10%;bottom: 49px;} */
+
+
+/* .pointer-icon { */
+    /* opacity: 0.75;                /* Opacity (Transparency) */ */
+/* } */
+
+
 /* Footer
 ------------------------------------------------- */
 footer {
