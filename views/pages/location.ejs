@@ -26,8 +26,14 @@
 	<div class="docs-section" id="location-info">
 		The conference venue is King's College London Strand Campus,
 		which is at the heart of London. Click on the links inside the
-		markers to <strong>view a detailed map of Strand Campus
-		</strong>and <strong>book nearby accomodation</strong>.
+		markers to
+		<a href="img/strandmap.jpg">
+			view a detailed map of Strand Campus
+		</a>
+		 and
+		<a href="https://www.google.co.uk/maps/search/lodging+near+Strand,+London+WC2R+2LS/data=!3m1!4b1!4m5!2m4!5m3!5m2!1s2018-06-25!2i2">
+			book nearby accomodation
+		</a>.
 		<br><br>
 		<p style="text-align:center">
 		<strong>King’s College London</strong><br>
@@ -138,7 +144,7 @@
 			google.maps.event.addListener(marker, 'click', function() {
 				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'
 				+place.name+'</p>'+place.vicinity+'<br>'+'<a href="https://www.google.co.uk/maps/search/'
-				+place.name.split(' ').join('+')+'">'+'Booking on Google Maps'+'</a></div>')
+				+place.name.split(' ').join('+')+'/data=!3m1!4b1!4m5!2m4!5m3!5m2!1s2018-06-25!2i2">'+'Booking on Google Maps'+'</a></div>')
 				infowindow.open(map, this)
 			})
 
