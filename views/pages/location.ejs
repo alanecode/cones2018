@@ -24,14 +24,15 @@
 	</section>
 
 	<div class="docs-section" id="location-info">
-		The map below shows London Underground transport links to the conference venue.
-		Click on the markers and follow the links to get more details on the venue
-		and nearby accomodation.
-		<br></br>
+		The conference venue is King's College London Strand Campus,
+		which is at the heart of London. Click on the links inside the
+		markers to <strong>view a detailed map of Strand Campus
+		</strong>and <strong>book nearby accomodation</strong>.
+		<br><br>
 		<p style="text-align:center">
-		<strong>Goodenough College</strong><br>
-		Mecklenburgh Square<br>
-		London WC1N 2AB
+		<strong>King’s College London</strong><br>
+		Strand Campus<br>
+		London WC2R 2LS
 		</p>
 	</div>
 
@@ -42,7 +43,7 @@
 	var infowindow
 
 		function initMap() {
-			var location = {lat: 51.524196, lng: -0.117827}
+			var location = {lat: 51.512097, lng:-0.116779}
 
 			map = new google.maps.Map(
 				document.getElementById('map'), {
@@ -76,10 +77,11 @@
 
 			google.maps.event.addListener(marker, 'click', function() {
 
-				var name = 'Goodenough College'
-				var vicinity = 'Mecklenburgh Square, London WC1N 2AB'
+				var name = 'King’s College London'
+				var vicinity = 'Strand Campus, London WC2R 2LS'
 
-				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'+name+'</p>'+vicinity+'<br>'+'<a href="https://www.google.co.uk/maps/place/'+name.split(' ').join('+')+'">'+'View on Google Maps'+'</a></div>')
+				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'
+				+name+'</p>'+vicinity+'<br>'+'<a href="img/strandmap.jpg">'+'Detailed Map'+'</a></div>')
 				infowindow.open(map, this)
 			})
 
@@ -91,7 +93,7 @@
 
 			service.nearbySearch({
 				location: location,
-				radius: 500,
+				radius: 2000,
 				keyword: 'hotel',
 				type: ['lodging']
 
@@ -134,7 +136,9 @@
 			})
 
 			google.maps.event.addListener(marker, 'click', function() {
-				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'+place.name+'</p>'+place.vicinity+'<br>'+'<a href="https://www.google.co.uk/maps/place/'+place.name.split(' ').join('+')+'">'+'View on Google Maps'+'</a></div>')
+				infowindow.setContent('<div> <p style="font-weight:900;font-family:verdana; margin-bottom:5px">'
+				+place.name+'</p>'+place.vicinity+'<br>'+'<a href="https://www.google.co.uk/maps/search/'
+				+place.name.split(' ').join('+')+'">'+'Booking on Google Maps'+'</a></div>')
 				infowindow.open(map, this)
 			})
 
@@ -146,9 +150,9 @@
 		<svg width="44px" height="44px" viewBox="0 0 400 400">
 			<path fill="red" d="M 100 50 L 200 100 L 300 50 L 200 300 z"/>
 		</svg>
-		<svg height="44px" width="145px">
+		<svg height="44px" width="155px">
 			<text x="0" y="21" text-anchor="left"
-			alignment-baseline="central">Conference Venue</text>
+			alignment-baseline="central">King's College London</text>
 		</svg>
 		<br></br>
 		<svg width="44px" height="44px" viewBox="0 0 400 400">
@@ -158,6 +162,49 @@
 			<text x="0" y="21" text-anchor="left"
 			alignment-baseline="central">Accomodation</text>
 		</svg>
+		<br><br>
+		<table>
+			<tr>
+				<th>
+					<img src="img/underground.png" height=12 width=12></img>
+					London Underground
+				</th>
+			</tr>
+			<tr>
+				<td>
+					Temple, Charing Cross, Embankment,
+					Waterloo, Holborn, Chancery Lane
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>
+					<img src="img/nationalrail.png" height=12 width=12></img>
+					National Rail
+				</th>
+			</tr>
+			<tr>
+				<td>
+					Charing Cross, Waterloo,
+					Waterloo East, Blackfriars
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>
+					<img src="img/buses.png" height=12 width=12></img>
+					Buses
+				</th>
+			</tr>
+			<tr>
+				<td>
+					1, 4, 26, 59, 68, 76, X68, 168, 171,
+					172, 176, 188, 243, 341, 521, RV1
+				</td>
+			</tr>
+		</table>
 	</div>
 </div>
 
