@@ -3,8 +3,10 @@ Dresses an express application with views and static files
 2017. G. Szep
  */
 
+
 /*global require module __dirname*/
-var express = require('express')
+var express = require('express');
+var helpers = require('express-helpers')();
 var App = module.exports = function() {
 
 	// initialise express app
@@ -21,6 +23,25 @@ App.prototype.initialise = function() {
 
 	this.app.use(express.static(__dirname + '/public'))
 	this.app.set('view engine', 'ejs')
+
+	// useful helper functions
+	this.app.locals.link_to = helpers.link_to;
+	this.app.locals.link_to_if = helpers.link_to_if;
+	this.app.locals.sort_by_surname = function(a, b) {
+	  	var nameA = a.surname.toUpperCase(); // ignore upper and lowercase
+		  var nameB = b.surname.toUpperCase(); // ignore upper and lowercase
+		  if (nameA < nameB) {
+		    return -1;
+		  }
+		  if (nameA > nameB) {
+		    return 1;
+		  }
+
+		  // names must be equal
+		  return 0;
+		};
+
+
 }
 
 // paths to views
