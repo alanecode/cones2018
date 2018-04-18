@@ -16,6 +16,59 @@
       <h2 class="title">Programme</h2>
     </section>
 
+    <section id="speaker-list">
+      <h4>Speakers</h4>
+      <ul>
+        <% speakers.sort(sort_by_surname) %>
+        <% speakers.forEach(function(speaker){ %>
+          <% speakerName = speaker.forename+" "+ speaker.surname %>
+          <% if (speaker.homepage) { %>
+              <li>
+                <%- link_to_if(speaker.homepage, speakerName, speaker.homepage, {target:"_blank"}) %>
+                <%- " &mdash; "+ speaker.institution %>
+              </li>
+          <% } else { %>
+              <li><%- speakerName + " &mdash; " + speaker.institution %></li>
+          <% } %>
+        <% }) %>
+      </ul>
+    </section>
+
+    <section>
+
+      <h4>Organisers</h4>
+      <div class="row">
+      <div class="organizers one-half column">
+        <h5 class="organizer-heading">CANES Staff</h5>
+        <ul>
+          <li>
+            <%- link_to("Alessia Annibale", "https://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/annibalea.aspx", {target:"_blank"}) %>
+          </li>
+          <li>
+            <%- link_to("Joe Bhaseen", "https://www.kcl.ac.uk/nms/depts/physics/people/academicstaff/bhaseen.aspx", {target:"_blank"}) %>
+          </li>
+          <li>
+            <%- link_to("Chris Lorenz", "https://www.kcl.ac.uk/nms/depts/physics/people/academicstaff/lorenz.aspx", {target:"_blank"}) %>
+          </li>
+          <li>
+            <%- link_to("Peter Sollich", "https://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/sollichp.aspx", {target:"_blank"}) %>
+          </li>
+          <li>
+            Jemma Trick
+          </li>
+        </ul>
+      </div>
+      <div class="organizers one-half column">
+        <h5 class="organizer-heading">Website design</h5>
+        <ul>
+          <li>Andrew Lane</li>
+          <li>Gregg Szep</li>
+        </ul>
+      </div>
+    </div>
+    </section>
+
+
   </div>
 
 <% include ../partials/navigation %>

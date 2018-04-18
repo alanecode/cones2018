@@ -201,20 +201,31 @@ div.to_nav > a {
 #kcl-logo {width: 75%;}
 #epsrc-logo { width: 100%; }
 
-/* font awesome logo indicating image is clickable*/
-/* .pin { */
-    /* position: absolute; /* Takes this element out the document flow */ */
-    /* z-index:10; /* Just in case of z-index issues, remove if not needed */ */
-/* } */
+/* Programme --
+------------------------------------------------- */
 
-/* .pin1 {right: 12%;bottom: -16%;} */
-/* .pin2 {right: 10%;bottom: 49px;} */
+/* space below speakers list */
+#speaker-list {
+  margin-bottom: 5rem;
+}
 
+/* styling lists of organisers */
+.organizers {
+  text-align: center;
+  float: left;
+}
 
-/* .pointer-icon { */
-    /* opacity: 0.75;                /* Opacity (Transparency) */ */
-/* } */
+.organizers ul {
+  list-style-type: none;
+  display:table;
+  margin:0 auto;
+}
 
+.organizer-heading {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
 
 /* Footer
 ------------------------------------------------- */
@@ -240,6 +251,12 @@ footer {
 
 /* Media Queries for Large Screens
 ------------------------------------------------- */
+@media only screen and (min-width: 550px) {
+  .organizer-heading {
+    font-weight: normal;
+  }
+}
+
 @media only screen and (min-width: 785px) {
       /* hide menu button when displaying on large screens */
       div.to_nav {

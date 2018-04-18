@@ -13,8 +13,14 @@
 
   <div class="container">
     <section id="page-title">
-      <h2 class="title">Participants</h2>
+      <h2 class="title">Attendants</h2>
     </section>
+
+    <ul>
+      <% attendants.forEach(function(personObj){ %>
+        <li><%= personObj.title+" "+personObj.forename+" "+ personObj.surname %></li>
+      <% }) %>
+    </ul>
 
   </div>
 
