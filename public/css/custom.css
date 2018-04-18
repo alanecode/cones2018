@@ -190,7 +190,7 @@ div.to_nav > a {
 }
 
 .logo-container #epsrc-logo {
-  margin-top: 7%;
+  /* margin-top: 7%; */
 }
 
 .logo-container img {
@@ -198,7 +198,7 @@ div.to_nav > a {
   margin: 0 auto;
 }
 
-#kcl-logo {width: 75%;}
+#kcl-logo {width: 62%;}
 #epsrc-logo { width: 100%; }
 
 /* Programme --
@@ -255,6 +255,8 @@ footer {
   .organizer-heading {
     font-weight: normal;
   }
+
+  #kcl-logo {width: 57%;}
 }
 
 @media only screen and (min-width: 785px) {
