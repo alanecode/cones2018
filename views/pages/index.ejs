@@ -10,15 +10,32 @@
   <header>
     <% include ../partials/header %>
   </header>
-  <div id=title-banner>
-    <img src="img/strand_night_1920_480.jpg" alt="Strand Campus at night">
+  <div id="title-banner">
+    <!--<img src="img/strand_night_1920x480.jpg" alt="Strand Campus at night">-->
+    <picture>
+      <source media="(max-width: 320px)" srcset="img/strand_night_320x483.jpg">
+      <source media="(max-width: 360px)" srcset="img/strand_night_360x555.jpg">
+      <source media="(max-width: 375px)" srcset="img/strand_night_375x582.jpg">
+      <source media="(max-width: 414px)" srcset="img/strand_night_414x651.jpg">
+      <source media="(max-width: 768px)" srcset="img/strand_night_768x427.jpg">
+      <source media="(min-width: 469px)" srcset="img/strand_night_1920x480.jpg">
+      <img src="img/strand_night_1920x480.jpg" alt="Strand Campus at night">
+    </picture>
+    <!--<img srcset="img/strand_night_320x483.jpg 320w,
+                 img/strand_night_360x555.jpg 360w,
+                 img/strand_night_1920x480.jpg 1920w"
+         sizes="(max-width:320px) 320px,
+                (max-width:360px) 360px,
+                1920px"
+         src="img/strand_night_1920x480.jpg"
+         alt="Strand Campus at night"> -->
     <div id="title-text">
       <h2 class="title">Conference on Non-Equilibrium Systems</h2>
       <h3>King's College London</h3>
       <h4>25-27th June 2018</h4>
     </div>
   </div>
-  
+
   <div class="container">
     <div class="docs-section" id="section-1">
       <h4>Section 1</h4>
