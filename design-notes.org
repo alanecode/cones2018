@@ -26,7 +26,30 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Res
 
 *** Smallest phone (iPhone5)
 - Dimensions = 320x568
-- Image height: 
+- Image height: 483 (full screen)
+
+*** Most popular phone 
+- Dimensions = 360×640
+- Image height: 555 (full screen)
+
+*** Big phone (e.g. iphone 7 or 8)
+- Dimensions = 375x667
+- Image height: 582
+
+*** Enormous phone (iphone 7 or 8 plus)
+- Dimension = 414x736
+- Image height: 651
+
+*** iPad
+Between navigation and banner, occupy half of screen length
+- Dimension = 768x1024
+- Image height: (1024/2) - 85 = 427
+
+
+*** Most popular desktop
+- Dimensions = 1366×768
+- Image height = 1366/4 = 341
+
 
   
   
