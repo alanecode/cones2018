@@ -147,13 +147,19 @@ div.to_nav > a {
 -------------------------------------------------- */
 #page-title {
   margin-top: 6rem;
-  text-align: center; }
+  text-align: center;
+  }
 
 /* Sections
 -------------------------------------------------- */
 .docs-section {
   /* add space between page sections */
   margin-top: 4rem;
+}
+
+.main-text{
+  /* text aloignment rules for flowing text */
+  text-align: left;
 }
 
 /* Navigation
