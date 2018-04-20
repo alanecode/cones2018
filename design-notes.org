@@ -1,0 +1,84 @@
+* Image editing notes
+** Guidance on screen sizes to cater for
+https://www.hobo-web.co.uk/best-screen-size/
+
+360×640 – 21.54%
+1366×768 – 12.85%
+1920×1080 – 7.76%
+375×667 – 4.94%
+1440×900 – 3.32%
+1280×800 – 2.67%
+
+** Responsive design image heights
+
+   Full screen: 100% height
+   Tall: 66% height
+   Medium: 50% height
+   Short: 33% height
+ https://help.groupthought.com/article/24-images-that-work-well-with-multiple-device-sizes
+
+** Resolution switching, responsive images 
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+** Strategy
+- For small phones, image should take up all of screen below the top banner,
+  which itself occupies 85 vertical pixels
+
+*** Smallest phone (iPhone5)
+- Dimensions = 320x568
+- Image height: 483 (full screen)
+
+*** Most popular phone 
+- Dimensions = 360×640
+- Image height: 555 (full screen)
+
+*** Big phone (e.g. iphone 7 or 8)
+- Dimensions = 375x667
+- Image height: 582
+
+*** Enormous phone (iphone 7 or 8 plus)
+- Dimension = 414x736
+- Image height: 651
+
+*** iPad
+Between navigation and banner, occupy half of screen length
+- Dimension = 768x1024
+- Image height: (1024/2) - 85 = 427
+
+
+*** Most popular desktop
+- Dimensions = 1366×768
+- Image height = 1366/4 = 341
+
+
+  
+  
+
+
+
+* Index content
+- Seeking to bring together researchers working on problems in Non-Equilibrium
+  Systems in any discipline -- from the physical to the biological
+- Engage with the unifying ideas, methods, and challenges which characterise the
+  study of irreversible processes
+- Interact with a cross-disciplinary group of academics from King's College
+  London and beyond at our historic Strand campus in central London
+
+
+complex systems/ networks
+quantum dynamics
+stat mech
+protein folding
+
+** COMMENT previous year bullet points
+What are the common challenges in Non-Equilibrium Systems?
+What insights, methods and questions can be transferred between disciplines?
+
+CONES aims to provide a forum for fruitful interactions and discussions on unifying ideas, problems and questions
+
+Plenary sessions alongside thematic strands on non-equilibrium phenomena in the
+physical, biological and environmental sciences
+
+Join us at the beautiful central London venue of Goodenough College
+
+* Background content

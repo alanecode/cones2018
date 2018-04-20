@@ -1,13 +1,13 @@
-,first_name,title,surname,twitter,homepage,role,university,talk_title,plenary,comment
-0,Eric,Prof.,Vanden-Eijnden,,https://cims.nyu.edu/~eve2/,speaker,"Courant Institute, NYU",,,
-1,Hernan,Prof.,Makse,,https://www.ccny.cuny.edu/profiles/hernan-makse ,speaker,CUNY ,,,
-2,Ivet,Dr. ,Bahar,,http://www.ccbb.pitt.edu/Faculty/bahar/index.php,speaker,"University of Pittsburgh, USA",,,
-3,Ehud,Prof.,Altman,,http://physics.berkeley.edu/people/faculty/ehud-altman,speaker,Berkeley,,,
+,first_name,title,surname,twitter,homepage,role,university,talk_title,plenary,Subject,comment
+0,Eric,Prof.,Vanden-Eijnden,,https://cims.nyu.edu/~eve2/,speaker,"Courant Institute, NYU",,,MD/Bio/Networks,
+1,Hernan,Prof.,Makse,,https://www.ccny.cuny.edu/profiles/hernan-makse ,speaker,CUNY ,,,Complex Systems/Networks,
+2,Ivet,Dr. ,Bahar,,http://www.ccbb.pitt.edu/Faculty/bahar/index.php,speaker,"University of Pittsburgh, USA",,,Protein folding,
+3,Ehud,Prof.,Altman,,http://physics.berkeley.edu/people/faculty/ehud-altman,speaker,Berkeley,,,"Quantum dynamics, MBL, open systems",
 4,Andrea,Dr.,Cavagna,,https://www.isc.cnr.it/staff-members/andrea-cavagna/,speaker,"CNR-ISC, Institute for Complex 
-Systems, Rome",,,
-5,Daniel,Dr.,Sussmann,,,speaker,Syracuse,,,Should this be spelled Sussman? https://danielsussman.wordpress.com
-6,Édgar,Dr.,Roldán,,,speaker,"ICTP, Trieste",,,
-7,Markus,Dr.,Heyl,,,speaker,Dresden,,,
-8,Anatoli,Prof.,Polkovnikov,,http://physics.bu.edu/~asp/,speaker,Boston,,,
-9,Simone,Prof.,Pigolotti,,https://groups.oist.jp/bcu/simone-pigolotti,speaker,University of Rome,,,
-10,Dmitry,Prof.,Abanin,,,speaker,Geneva,,,
+Systems, Rome",,,"Complex systems, flocking, bio",
+5,Daniel,Dr.,Sussmann,,,speaker,Syracuse,,,Glassy/Soft Matter/Bio,Should this be spelled Sussman? https://danielsussman.wordpress.com
+6,Édgar,Dr.,Roldán,,,speaker,"ICTP, Trieste",,,Stochastic thermodynamics & biophysics,
+7,Markus,Dr.,Heyl,,,speaker,Dresden,,,Dynamical quantum phase transitions,
+8,Anatoli,Prof.,Polkovnikov,,http://physics.bu.edu/~asp/,speaker,Boston,,,"Quantum dynamics, thermalization, semiclassical",
+9,Simone,Prof.,Pigolotti,,https://groups.oist.jp/bcu/simone-pigolotti,speaker,University of Rome,,,Stat mech incl. bio,
+10,Dmitry,Prof.,Abanin,,,speaker,Geneva,,,MBL,

@@ -10,40 +10,42 @@
   <header>
     <% include ../partials/header %>
   </header>
-
-  <div class="container">
-    <section id="page-title">
+  <div id="title-banner">
+    <!--<img src="img/strand_night_1920x480.jpg" alt="Strand Campus at night">-->
+    <picture>
+      <source media="(max-width: 320px)" srcset="img/strand_night_320x483.jpg">
+      <source media="(max-width: 360px)" srcset="img/strand_night_360x555.jpg">
+      <source media="(max-width: 375px)" srcset="img/strand_night_375x582.jpg">
+      <source media="(max-width: 414px)" srcset="img/strand_night_414x651.jpg">
+      <source media="(max-width: 768px)" srcset="img/strand_night_768x427.jpg">
+      <source media="(min-width: 469px)" srcset="img/strand_night_1920x480.jpg">
+      <img src="img/strand_night_1920x480.jpg" alt="Strand Campus at night">
+    </picture>
+    <div id="title-text">
       <h2 class="title">Conference on Non-Equilibrium Systems</h2>
       <h3>King's College London</h3>
       <h4>25-27th June 2018</h4>
-    </section>
-    <div class="docs-section" id="section-1">
-      <h4>Section 1</h4>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    liquip ex ea commodo consequat. Duis aute irure dolor in
-    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum.
-
-
     </div>
-    <div class="docs-section" id="section-2">
-      <h4>Section 2</h4>
-      At vero eos et accusamus et iusto odio dignissimos ducimus qui
-    blanditiis praesentium volufa-inverseptatum deleniti atque corrupti quos dolores
-    et quas molestias excepturi sint occaecati cupiditate non provident,
-    similique sunt in culpa qui officia deserunt mollitia animi, id est
-    laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-    distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-    cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-    omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-    autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-    eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-    Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-    voluptatibus maiores alias consequatur aut perferendis doloribus
-    asperiores repellat.
+  </div>
+
+  <div class="container">
+    <div class="docs-section" id="conference-overview">
+      <h4 id="tagline">"Frontiers of non-equilibrium science"</h4>
+      <ul class="big-list">
+	<li>
+	  Seeking to bring together researchers working on problems in
+	  Non-Equilibrium Systems in any discipline &#x2013; from the
+	  physical to the biological.
+	</li>
+	<li>
+	  Engage with the unifying ideas, methods, and challenges which
+	  characterise the study of irreversible processes.
+	</li>
+	<li>
+	  Interact with a cross-disciplinary group of academics from King's College
+	  London and beyond at our historic Strand campus in central London.
+	</li>
+      </ul>
 
     </div>
 
