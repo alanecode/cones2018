@@ -135,7 +135,13 @@ div.to_nav > a {
 
 #tagline {
   text-align: center;
+  margin-bottom: 3rem;
 }
+
+/* index page bullet points */
+
+.big-list { font-size: 1.7rem; }
+.big-list li { margin-bottom: 3rem;}
 
 /* Title
 -------------------------------------------------- */
@@ -213,7 +219,7 @@ div.to_nav > a {
 }
 
 .logo-container {
-  padding-top: 40.3px;
+  padding-top: 2.5rem;
 }
 
 .logo-container #epsrc-logo {
@@ -320,7 +326,7 @@ footer {
       float: right;
       margin: 0;
       margin-top: 1px;
-      padding: 0;
+      padding-left: 5px;
       overflow: hidden;
     }
 
@@ -328,9 +334,9 @@ footer {
       float: left;
     }
 
-    #primary_nav li:nth-child(5) {
+    #primary_nav li:nth-child(4) {
       clear: left;
-      margin-left: 173px;
+      margin-left: -13px;
     }
 
     #primary_nav li a {
@@ -373,7 +379,7 @@ footer {
      float: none;
    }
 
-   #primary_nav li:nth-child(5) {
+   #primary_nav li:nth-child(4) {
      margin-left: 0;
    }
 
