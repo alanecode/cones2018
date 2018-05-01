@@ -288,7 +288,7 @@ footer {
 
 }
 
-,,,.list-inline libn a:hover,
+.list-inline li a:hover,
 .list-inline li a:focus {
     color: #ccc;
 }
