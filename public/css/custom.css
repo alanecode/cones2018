@@ -24,6 +24,12 @@ html {
   overflow-y: scroll;
 }
 
+/* Buttons  */
+.button {
+    max-width: 20rem;
+    padding: 2rem 0rem 3.6rem 0rem
+}
+
 /* Header
 based on https://webdesign.tutsplus.com/articles/a-simple-responsive-mobile-first-navigation--webdesign-6074
 -------------------------------------------------- */
@@ -140,7 +146,12 @@ div.to_nav > a {
 
 /* index page bullet points */
 
-.big-list { font-size: 1.7rem; }
+.big-list {
+    font-size: 1.7rem;
+    text-indent:-1.35em;
+
+}
+}
 .big-list li { margin-bottom: 3rem;}
 
 /* Title
