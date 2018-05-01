@@ -140,7 +140,12 @@ div.to_nav > a {
 
 /* index page bullet points */
 
-.big-list { font-size: 1.7rem; }
+.big-list {
+    font-size: 1.7rem;
+    text-indent:-1.35em;
+
+}
+}
 .big-list li { margin-bottom: 3rem;}
 
 /* Title
@@ -283,7 +288,7 @@ footer {
 
 }
 
-.list-inline li a:hover,
+,,,.list-inline libn a:hover,
 .list-inline li a:focus {
     color: #ccc;
 }
