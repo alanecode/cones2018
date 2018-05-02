@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   height="150"
+   viewBox="0 0 150 149.99999"
+   id="svg4722"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cones-faviconv2.svg"
+   inkscape:export-filename="/home/andrew/Dropbox/codes/javascript/cones2018/graphics-src/cones-faviconv3.png"
+   inkscape:export-xdpi="694.49365"
+   inkscape:export-ydpi="694.49365">
+  <defs
+     id="defs4724" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="62.924809"
+     inkscape:cy="35.129145"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5307"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1362"
+     inkscape:window-height="724"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     showborder="false">
+    <sodipodi:guide
+       position="0.095664712,245.78011"
+       orientation="1,0"
+       id="guide5278" />
+    <sodipodi:guide
+       position="177.23852,174.35154"
+       orientation="1,0"
+       id="guide5280" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5282"
+       originx="-253.47576"
+       originy="-484.93415" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4727">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-253.47576,-417.42805)">
+    <g
+       id="g5307"
+       style="opacity:0.98999999;fill:#cccccc;fill-opacity:0.75294118;stroke:none;stroke-opacity:1"
+       inkscape:export-filename="/home/andrew/Dropbox/codes/javascript/cones2018/public/img/cones18-logo-grey.png"
+       inkscape:export-xdpi="99.699997"
+       inkscape:export-ydpi="99.699997">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44924811;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.44924814, 0.89849627;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4282"
+         width="33.693611"
+         height="33.693611"
+         x="309.70038"
+         y="510.93835"
+         rx="6" />
+      <text
+         sodipodi:linespacing="0%"
+         id="text5270"
+         y="538.53821"
+         x="325.96683"
+         style="font-style:normal;font-weight:normal;font-size:30px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:6.19999981px;word-spacing:0px;text-anchor:middle;fill:#cccccc;fill-opacity:0.75294118;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="538.53821"
+           x="329.06683"
+           id="tspan5272"
+           sodipodi:role="line">C</tspan></text>
+    </g>
+  </g>
+</svg>
