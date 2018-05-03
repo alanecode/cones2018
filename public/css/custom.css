@@ -154,19 +154,6 @@ div.to_nav > a {
      margin-bottom: 3rem;
 }
 
-@supports (-webkit-appearance:none) {
-    .left-aligned-list {
-	padding-left: 1.4em;
-	text-indent:-1.4em;
-    }
-}
-
-_:-moz-tree-row(hover), .left-aligned-list {
-    	padding-left: 1.18em;
-	text-indent:-1.18em;
-} 
-    
-
 /* Title
 -------------------------------------------------- */
 #page-title {
@@ -391,6 +378,20 @@ footer {
     footer {
       margin-top: 4.5rem;
     }
+
+    /* improve appearance of lists by indenting lines */
+    @supports (-webkit-appearance:none) {
+	.left-aligned-list {
+	    padding-left: 1.4em;
+	    text-indent:-1.4em;
+	}
+    }
+
+    _:-moz-tree-row(hover), .left-aligned-list {
+    	    padding-left: 1.18em;
+	    text-indent:-1.18em;
+    }
+
 }
 
 @media only screen and (min-width: 950px) {
