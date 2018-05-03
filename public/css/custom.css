@@ -154,10 +154,18 @@ div.to_nav > a {
      margin-bottom: 3rem;
 }
 
-.left-aligned-list {
-    padding-left: 1.4em;
-    text-indent:-1.4em;
-}    
+@supports (-webkit-appearance:none) {
+    .left-aligned-list {
+	padding-left: 1.4em;
+	text-indent:-1.4em;
+    }
+}
+
+_:-moz-tree-row(hover), .left-aligned-list {
+    	padding-left: 1.18em;
+	text-indent:-1.18em;
+} 
+    
 
 /* Title
 -------------------------------------------------- */
