@@ -1,17 +1,18 @@
-,confirmed,first_name,title,surname,twitter,homepage,role,university,talk_title,plenary,Subject,comment
-0,y,Eric,Prof.,Vanden-Eijnden,,https://cims.nyu.edu/~eve2/,speaker,"Courant Institute, NYU",,,MD/Bio/Networks,
-1,y,Hernan,Prof.,Makse,,https://www.ccny.cuny.edu/profiles/hernan-makse ,speaker,CUNY ,,,Complex Systems/Networks,
-2,y,Ivet,Dr. ,Bahar,,http://www.ccbb.pitt.edu/Faculty/bahar/index.php,speaker,"University of Pittsburgh, USA",,,Protein folding,
-3,y,Ehud,Prof.,Altman,,http://physics.berkeley.edu/people/faculty/ehud-altman,speaker,Berkeley,,,"Quantum dynamics, MBL, open systems",
-4,y,Andrea,Dr.,Cavagna,,https://www.isc.cnr.it/staff-members/andrea-cavagna/,speaker,"CNR-ISC, Institute for Complex 
+No.,confirmed,title,first_name,surname,twitter,homepage,role,university,talk_title,plenary,Subject,comment
+0,y,Prof.,Eric,Vanden-Eijnden,,https://cims.nyu.edu/~eve2/,speaker,"Courant Institute, NYU",,,MD/Bio/Networks,
+1,y,Prof.,Hernan,Makse,,https://www.ccny.cuny.edu/profiles/hernan-makse ,speaker,CUNY ,,,Complex Systems/Networks,
+2,y,Dr. ,Ivet,Bahar,,http://www.ccbb.pitt.edu/Faculty/bahar/index.php,speaker,"University of Pittsburgh, USA",,,Protein folding,
+3,y,Prof.,Ehud,Altman,,http://physics.berkeley.edu/people/faculty/ehud-altman,speaker,Berkeley,,,"Quantum dynamics, MBL, open systems",
+4,y,Dr.,Andrea,Cavagna,,https://www.isc.cnr.it/staff-members/andrea-cavagna/,speaker,"CNR-ISC, Institute for Complex 
 Systems, Rome",,,"Complex systems, flocking, bio",
-5,y,Daniel,Dr.,Sussman,,,speaker,Syracuse,,,Glassy/Soft Matter/Bio,Should this be spelled Sussman? https://danielsussman.wordpress.com
-6,y,Markus,Dr.,Heyl,,,speaker,Dresden,,,Dynamical quantum phase transitions,
-7,y,Anatoli,Prof.,Polkovnikov,,http://physics.bu.edu/~asp/,speaker,Boston,,,"Quantum dynamics, thermalization, semiclassical",
-8,y,Simone,Prof.,Pigolotti,,https://groups.oist.jp/bcu/simone-pigolotti,speaker,University of Rome,,,Stat mech incl. bio,
-9,y,Dmitry,Prof.,Abanin,,,speaker,Geneva,,,MBL,
-10,y,Carmen,Prof.,Molina-Paris,,https://physicalsciences.leeds.ac.uk/staff/65/professor-carmen-molina-paris,speaker,Leeds,,,,
-11,y,Édgar,Dr.,Roldán,,,speaker,ICTP - International Centre for Theoretical Physics,,,Stochastic thermodynamics & biophysics,Just moved from the MPI to ICTP 
-12,y,Luca,Dr.,Dall'Asta,,https://areeweb.polito.it/ricerca/cmp/people/da,speaker,Polytechnic University of Turin,,,,
-13,y,Raffaella,Prof.,Burioni,,,speaker,Università di Parma,,,,
-14,y,Pierfrancesco,Dr.,Urbani,,,speaker,"CEA, France",,,,
+5,y,Dr.,Daniel,Sussman,,,speaker,Syracuse,,,Glassy/Soft Matter/Bio,
+6,y,Dr.,Markus,Heyl,,,speaker,Dresden,,,Dynamical quantum phase transitions,
+7,y,Prof.,Anatoli,Polkovnikov,,http://physics.bu.edu/~asp/,speaker,Boston,,,"Quantum dynamics, thermalization, semiclassical",
+8,y,Prof.,Simone,Pigolotti,,https://groups.oist.jp/bcu/simone-pigolotti,speaker,University of Rome,,,Stat mech incl. bio,
+9,y,Prof.,Dmitry,Abanin,,,speaker,Geneva,,,MBL,
+10,y,Prof.,Carmen,Molina-Paris,,https://physicalsciences.leeds.ac.uk/staff/65/professor-carmen-molina-paris,speaker,Leeds,,,,
+11,y,Dr.,Édgar,Roldán,,,speaker,ICTP - International Centre for Theoretical Physics,,,Stochastic thermodynamics & biophysics,Just moved from the MPI to ICTP 
+12,y,Dr.,Luca,Dall'Asta,,https://areeweb.polito.it/ricerca/cmp/people/da,speaker,Polytechnic University of Turin,,,,
+13,y,Prof.,Raffaella,Burioni,,,speaker,Università di Parma,,,,
+14,y,Dr.,Pierfrancesco,Urbani,,,speaker,"CEA, France",,,,
+15,y,Prof.,Fabian,Essler,,,speaker,Oxford,,,,
