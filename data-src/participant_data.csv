@@ -5,14 +5,14 @@ No.,confirmed,title,first_name,surname,twitter,homepage,role,university,talk_tit
 3,y,Prof.,Ehud,Altman,,http://physics.berkeley.edu/people/faculty/ehud-altman,speaker,Berkeley,,,"Quantum dynamics, MBL, open systems",
 4,y,Dr.,Andrea,Cavagna,,https://www.isc.cnr.it/staff-members/andrea-cavagna/,speaker,"CNR-ISC, Institute for Complex 
 Systems, Rome",,,"Complex systems, flocking, bio",
-5,y,Dr.,Daniel,Sussman,,,speaker,Syracuse,,,Glassy/Soft Matter/Bio,
-6,y,Dr.,Markus,Heyl,,,speaker,Dresden,,,Dynamical quantum phase transitions,
+5,y,Dr.,Daniel,Sussman,,https://danielsussman.wordpress.com,speaker,Syracuse,,,Glassy/Soft Matter/Bio,
+6,y,Dr.,Markus,Heyl,,https://www.pks.mpg.de/dynamics-in-correlated-quantum-matter/people/dr-markus-heyl/,speaker,Dresden,,,Dynamical quantum phase transitions,
 7,y,Prof.,Anatoli,Polkovnikov,,http://physics.bu.edu/~asp/,speaker,Boston,,,"Quantum dynamics, thermalization, semiclassical",
 8,y,Prof.,Simone,Pigolotti,,https://groups.oist.jp/bcu/simone-pigolotti,speaker,University of Rome,,,Stat mech incl. bio,
 9,y,Prof.,Dmitry,Abanin,,,speaker,Geneva,,,MBL,
 10,y,Prof.,Carmen,Molina-Paris,,https://physicalsciences.leeds.ac.uk/staff/65/professor-carmen-molina-paris,speaker,Leeds,,,,
-11,y,Dr.,Édgar,Roldán,,,speaker,ICTP - International Centre for Theoretical Physics,,,Stochastic thermodynamics & biophysics,Just moved from the MPI to ICTP 
+11,y,Dr.,Édgar,Roldán,,http://www.edgarroldan.com,speaker,ICTP - International Centre for Theoretical Physics,,,Stochastic thermodynamics & biophysics,Just moved from the MPI to ICTP 
 12,y,Dr.,Luca,Dall'Asta,,https://areeweb.polito.it/ricerca/cmp/people/da,speaker,Polytechnic University of Turin,,,,
-13,y,Prof.,Raffaella,Burioni,,,speaker,Università di Parma,,,,
+13,y,Prof.,Raffaella,Burioni,,http://www.fis.unipr.it/~raffaella.burioni/Site/Home.html,speaker,Università di Parma,,,,
 14,y,Dr.,Pierfrancesco,Urbani,,,speaker,"CEA, France",,,,
-15,y,Prof.,Fabian,Essler,,,speaker,Oxford,,,,
+15,y,Prof.,Fabian,Essler,,http://www-thphys.physics.ox.ac.uk/people/FabianEssler/,speaker,Oxford,,,,
