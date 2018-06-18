@@ -16,10 +16,14 @@
       <h2 class="title">Programme</h2>
     </section>
 
-    <section id="speaker-list" class="left-aligned-list">
+    <section>
       <h4>Speakers</h4>
-      <p>Confirmed speakers include:</p>
-      <ul>
+      <p>
+	For an up-to-date list of speakers, please see
+	our <a href="CONES_Programme_15June.pdf" target="_blank">preliminary
+	programme</a>. Confirmed speakers include:
+      </p>
+      <ul id="speaker-list" class="left-aligned-list">
         <% speakers.sort(sort_by_surname) %>
         <% speakers.forEach(function(speaker){ %>
           <% speakerName = speaker.forename+" "+ speaker.surname %>
