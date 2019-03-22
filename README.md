@@ -4,3 +4,5 @@ This is a repository to contain work on the website for the 2018 CONES conferenc
 
 We're using the [Node.js](https://nodejs.org/en/) platform for all server-side programming, [EJS](http://ejs.co) for HTML templating and [Skeleton](http://getskeleton.com) CSS templating.
 
+See [here](https://canes-cdt.github.io/cones2018/) for an archived static snapshot of the of the finished site.
+
